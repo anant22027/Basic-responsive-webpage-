@@ -1,0 +1,84 @@
+/* General Reset */
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+body {
+    font-family: Arial, sans-serif;
+    background-color: #f0f0f0;
+    line-height: 1.5;
+}
+
+header {
+    position: fixed;
+    top: 0;
+    width: 100%;
+    background-color: #333;
+    color: white;
+    text-align: center;
+    padding: 10px 0;
+    z-index: 1000;
+}
+
+/* Layout Container */
+.container {
+    display: flex;
+    margin-top: 60px; /* Adjust for the navbar height */
+    height: calc(100vh - 100px); /* Full height minus header and footer */
+    background-color: #fff;
+}
+
+/* Left Menu */
+.left-menu {
+    width: 20%;
+    background-color: #f4f4f4;
+    padding: 15px;
+    border-right: 1px solid #ddd;
+    transition: width 0.3s ease;
+    overflow: hidden;
+}
+
+.left-menu.collapsed {
+    width: 5%;
+    text-align: center;
+}
+
+.left-menu.collapsed .menu-content {
+    display: none; /* Hide menu items */
+}
+
+.left-menu button {
+    display: block;
+    margin-bottom: 10px;
+    width: 100%;
+    padding: 5px;
+}
+
+/* Main Content */
+.main-content {
+    flex: 1; /* Take up remaining space */
+    padding: 15px;
+    background-color: #fff;
+    overflow-y: auto;
+}
+
+/* Right Panel */
+.right-panel {
+    width: 20%;
+    background-color: #e9e9e9;
+    padding: 15px;
+    border-left: 1px solid #ddd;
+}
+
+/* Footer */
+footer {
+    position: fixed;
+    bottom: 0;
+    width: 100%;
+    background-color: #333;
+    color: white;
+    text-align: center;
+    padding: 10px 0;
+}
