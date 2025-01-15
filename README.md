@@ -3,7 +3,6 @@
 1. Created a responsive webpage with the following features:
    
 a. A fixed navbar that does not move when scrolling.
-
 b. Below the navbar, created three sections: a left menu, a main content area, and a right-side panel.
 
 c. Included a footer at the bottom.
