@@ -12,10 +12,10 @@ d. Made the left menu collapsible.
 
 2. The same webpage includes the features :
    
-a. If the screen width is between 992px and 1600px, shrink the page by 90%.
+a. If the screen width is between 992px and 1600px, shrinks the page by 90%.
 
-b. If the screen width is between 700px and 767px, shrink the page by 80%.
+b. If the screen width is between 700px and 767px, shrinks the page by 80%.
 
-c. If the screen width is between 600px and 700px, shrink the width to 75%.
+c. If the screen width is between 600px and 700px, shrinks the width to 75%.
 
-d. If the screen width is less than or equal to 600px, shrink the width to 50%.
+d. If the screen width is less than or equal to 600px, shrinks the width to 50%.
